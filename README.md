@@ -67,6 +67,7 @@ crontab -e
 To save press CTRL + O and then ENTER
 
 * Now, execute
+
 ```console
 crontab -l
 ```
