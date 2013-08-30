@@ -9,7 +9,7 @@ You can use twitter from your Raspberry Pi implementing one or more cronjobs
 * Rubygems
 * Some coffee
 
-## How to use?
+## How to set up?
 
 * First sign up at http://dev.twitter.com and create a aplication
 
@@ -26,3 +26,25 @@ rake db:migrate
 ```
 
 * Enjoy
+
+## How to user?
+
+* Say the current time
+```console
+ruby tells_time.rb
+```
+
+* Post a note from google news
+```console
+ruby news.rb
+```
+
+* Do some re-tweet related to raspberry
+```console
+ruby retweet.rb
+```
+
+* Say hello to new followers
+```console
+ruby followers.rb
+```
