@@ -23,6 +23,9 @@ bundle install
 
 * Now create migrations with
 ```console
+rake db:create
+```
+```console
 rake db:migrate
 ```
 
