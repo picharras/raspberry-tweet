@@ -11,5 +11,5 @@ Twitter.configure do |config|
     :open_timeout => 50,
     :timeout => 100
   })
-  Client = Googl.client('usarname@gmail.com', 'password')
+  Client = Googl.client('username@gmail.com', 'password')
 end
