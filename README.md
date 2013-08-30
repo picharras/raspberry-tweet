@@ -50,7 +50,7 @@ ruby followers.rb
 ```
 ## Example
 
-Make a crontab that greets every 45 minutes and record the output in the file log-followers.log.
+Make a crontab that say hello every 45 minutes and record the output in the file log-followers.log.
 
 Assuming that your folder is inside /home/pi
 
