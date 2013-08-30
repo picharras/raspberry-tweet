@@ -1,0 +1,8 @@
+adapter: mysql2
+database: db_name
+username: db_admin
+password: password
+host: localhost
+port: 3306
+pool: 5
+timeout: 5000
