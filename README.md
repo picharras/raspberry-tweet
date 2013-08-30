@@ -64,7 +64,7 @@ crontab -e
 45 * * * * ruby /home/pi/raspberry-tweet/followers.rb >> /home/pi/log-followers.log 2>&1
 ```
 
-To save press CTRL + O and the ENTER
+To save press CTRL + O and then ENTER
 
 * Now, execute
 ```console
