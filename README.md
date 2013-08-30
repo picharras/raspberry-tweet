@@ -7,6 +7,7 @@ You can use twitter from your Raspberry Pi implementing one or more cronjobs
 ## Requeriments
 * Ruby version >= 1.9.3
 * Rubygems
+* bundler(may need to be root): gem install bundler
 * Some coffee
 
 ## How to set up?
