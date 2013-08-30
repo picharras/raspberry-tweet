@@ -48,3 +48,29 @@ ruby retweet.rb
 ```console
 ruby followers.rb
 ```
+## Example
+
+Make a crontab that greets every 45 minutes and record the output in the file log-followers.log
+
+```console
+crontab -e
+```
+
+Enter the following line at end of file
+```console
+45 * * * * ruby /home/pi/cron-raspberry-pi/followers.rb >> /home/pi/log-followers.log 2>&1
+```
+
+To save press CTRL + O and the ENTER
+
+Now, execute
+```console
+crontab -l
+```
+
+You should see something like the following
+
+```console
+....
+45 * * * * ruby /home/pi/cron-raspberry-pi/followers.rb >> /home/pi/log-followers.log 2>&1
+```
