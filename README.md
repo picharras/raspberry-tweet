@@ -50,7 +50,9 @@ ruby followers.rb
 ```
 ## Example
 
-Make a crontab that greets every 45 minutes and record the output in the file log-followers.log
+Make a crontab that greets every 45 minutes and record the output in the file log-followers.log.
+
+Assuming that your folder is inside /home/pi
 
 ```console
 crontab -e
@@ -58,7 +60,7 @@ crontab -e
 
 Enter the following line at end of file
 ```console
-45 * * * * ruby /home/pi/cron-raspberry-pi/followers.rb >> /home/pi/log-followers.log 2>&1
+45 * * * * ruby /home/pi/raspberry-tweet/followers.rb >> /home/pi/log-followers.log 2>&1
 ```
 
 To save press CTRL + O and the ENTER
@@ -72,5 +74,5 @@ You should see something like the following
 
 ```console
 ....
-45 * * * * ruby /home/pi/cron-raspberry-pi/followers.rb >> /home/pi/log-followers.log 2>&1
+45 * * * * ruby /home/pi/raspberry-tweet/followers.rb >> /home/pi/log-followers.log 2>&1
 ```
